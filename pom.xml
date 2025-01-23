@@ -88,4 +88,16 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>default-profile</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<!-- Настройки для профиля -->
+				<spring.profiles.active>development</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 </project>
